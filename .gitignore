@@ -1,0 +1,24 @@
+﻿# Dependências e módulos do Node
+node_modules/
+
+# Arquivos temporários e de cache
+*.log
+*.tsbuildinfo
+.npm/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.test
+.cypress.env.json
+
+# Pastas de configuração local
+.vscode/
+.idea/
+
+# Arquivos de sistema operacional
+Thumbs.db  # Windows
+
+# Artefatos de cobertura de código e CI
+/.nyc_output
+/coverage/
